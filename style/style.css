@@ -170,11 +170,14 @@ html {
       flex:1 0 auto;
     }
     .main{
+      margin:1.5em;
       padding:1em;
       text-align: center;
-      background-image:url("images/background.jpg");
+      background-image:url("https://fulop88.github.io/csy1018/images/background.jpg");
+      background-position-x: 100%;
+      background-position-y: 100%;
       background-repeat:no-repeat;
-      background-attachment: fixed;
+      background-attachment: static;
       border-top:5px solid black;
       border-bottom:5px solid black;
       background-color: rgb(255, 255, 255);
@@ -206,7 +209,5 @@ div.static{
         flex:1 1 auto;
         
       }
-      .aside {
-        width:20%;
-      }
+
     }
