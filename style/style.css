@@ -79,13 +79,15 @@ body{
     .nav{
       order:-1;
       padding:5px;
-      background:rgba(255, 255, 255, 0.781);
+      background-image: url("images/background.jpg");
+      /* background:rgba(255, 255, 255, 0.781); */
       float:left;
       margin-right:10px;
       list-style:none;
     }
     /* This navigation was forked from https://codepen.io/anon/pen/QaxZmX?limit=all&page=3&q=navigation+css */
     nav.option1 {
+
       color:rgb(255, 255, 255);
       font-family: Tahoma, sans-serif;
       margin: 0;
