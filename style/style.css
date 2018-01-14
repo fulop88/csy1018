@@ -52,7 +52,8 @@
   .center1 {
     text-align: center;
     background-color:rgba(255, 255, 255, 0.692);
-    border: solid rgba(0, 0, 0, 0.719);
+    border-top: solid grey;
+    border-bottom:solid grey;
 }
   p{
     text-align:center;
@@ -70,6 +71,9 @@
     width: 95%;
     margin:50px;
     padding:30px;
+    border-left:solid rgba(128, 128, 128, 0.623);
+    /* border-bottom:solid rgba(128, 128, 128, 0.623); */
+    border-width: 10px;
 }
 
 .row:after {
