@@ -29,17 +29,34 @@
   }
 }
   h2 {
-    text-align: center;
+    text-align: right;
     font-size: 17.5px;
     margin-bottom: bottom 50px;
     padding: 0px;
   }
-  h3{
+   h3{
     text-align:right;
     font-size: 15px;
     margin-bottom:10px;
     padding:10px;
   }
+  h4 { 
+    color: #111;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 5 0 72px;
+    text-align: center;
+   }
+
+  .center1 {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.692);
+    border: solid rgba(0, 0, 0, 0.719);
+  ;
+}
+  
   p{
     text-align:center;
     font-size: 15px;
@@ -50,7 +67,7 @@
     height: 75px;
     margin: 15px;
     padding:10px;
-  }
+  } 
 li {
     height:30px;
     float:left;
@@ -181,10 +198,11 @@ html {
     
     .footer {
       position: absolute;
+      padding:2.5em;
       right: 0;
       bottom: 0;
       left: 0;
-      padding: 2.3rem;
+
       background-color:rgb(247, 182, 51);
       text-align: center;
     }
