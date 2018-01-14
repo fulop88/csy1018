@@ -29,7 +29,7 @@
   }
 }
   h2 {
-    text-align: right;
+    text-align: center;
     font-size: 17.5px;
     margin-bottom: bottom 50px;
     padding: 0px;
@@ -65,6 +65,19 @@
     margin: 15px;
     padding:10px;
   } 
+  .column {
+    float: left;
+    width: 95%;
+    margin:50px;
+    padding:30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 li {
     height:30px;
     float:left;
@@ -195,13 +208,28 @@ html {
     
     .footer {
       position: absolute;
-      padding:2.5em;
+      padding:1.5em;
       right: 0;
       bottom: 0;
       left: 0;
-
       background-color:rgb(247, 182, 51);
       text-align: center;
+    }
+    /* this social links footer was forked from https://codepen.io/sonjastrieder/pen/MbqaRo?q=media+links&limit=all&type=type-pens */
+    .SocialLink {
+      color: inherit;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 0.28rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: block;
+    }
+    
+    .SocialLink-icon {
+      display: none;
+      vertical-align: middle;
+      fill: currentColor;
     }
 
     .cf{
