@@ -20,6 +20,7 @@
     padding: 0px;
   }
   h3{
+    position: absolute;
     text-align:right;
     font-size: 15px;
     margin-bottom:10px;
@@ -150,7 +151,7 @@ html {
       position: relative;
       margin: 0;
       padding-bottom: 6rem;
-      min-height: 105%;
+      min-height: 155%;
       font-family: "Helvetica Neue", Arial, sans-serif;
     }
     
@@ -174,6 +175,17 @@ html {
       background-color:#F7B733;
       text-align: center;
     }
+
+    .cf{
+      padding:10px;
+      margin:10px;
+    }
+
+    .message{
+      padding:50px;
+      margin:10px;
+    }
+    
     .wrapper{
       display:flex;
       flex-direction: column;
@@ -192,6 +204,7 @@ html {
       border-bottom:5px solid black;
       background-color: rgb(255, 255, 255);
     }
+
 .category{
   padding-top: 50px;
   padding-right: 30px;
